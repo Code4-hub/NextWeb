@@ -74,7 +74,7 @@ export const Footer = () => {
         <p className="text-sm">© 2024 NextWeb Ltd. All rights reserved.</p>
         <div className="flex items-center text-sm gap-5">
           <Link to={"/terms"}>Terms & Conditions</Link>
-          <Link to={"/Privacy"}>Privacy Policy</Link>
+          <Link to={"/privacy"}>Privacy Policy</Link>
         </div>
       </div>
     </div>

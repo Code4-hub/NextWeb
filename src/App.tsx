@@ -8,6 +8,8 @@ import Showcase from "./app/Showcase/Showcase";
 import "./App.css";
 import { Navbar } from "./app/pageComponents/Navbar";
 import { Footer } from "./app/pageComponents/Footer";
+import { Privacy } from "./app/Terms-privacy/Privacy";
+import { Terms } from "./app/Terms-privacy/Terms";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -15,18 +17,20 @@ function App() {
   return (
     <>
       <Router>
-      <div className="container mx-auto px-4">
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/blog" element={<Blog />} />
-        <Route path="/pricing" element={<Pricing />} />
-        <Route path="/showcase" element={<Showcase />} />
-      </Routes>
-      <Footer />
-      </div>
-    </Router>
+        <div className="container mx-auto px-4">
+          <Navbar />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/blog" element={<Blog />} />
+            <Route path="/pricing" element={<Pricing />} />
+            <Route path="/showcase" element={<Showcase />} />
+            <Route path="/terms" element={<Terms />} />
+            <Route path="/privacy" element={<Privacy />} />
+          </Routes>
+          <Footer />
+        </div>
+      </Router>
     </>
   );
 }
