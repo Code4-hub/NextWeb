@@ -13,8 +13,6 @@ import { Terms } from "./app/Terms-privacy/Terms";
 import ContactUs from "./app/Contact us/ContactUs";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
       <Router>
