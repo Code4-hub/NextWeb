@@ -2,7 +2,7 @@ import React from 'react'
 
 const Showcase = () => {
   return (
-    <div>Showcase</div>
+    <div>Showcase1</div>
   )
 }
 
