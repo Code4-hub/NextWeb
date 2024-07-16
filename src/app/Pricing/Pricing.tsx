@@ -1,15 +1,10 @@
-import React from "react";
-import { Navbar } from "../pageComponents/Navbar";
 import { PricingTabs } from "./PricingTabs";
 import BlurFade from "@/components/magicui/blur-fade";
 import { FAQs } from "./FAQs/FAQs";
-import { Footer } from "../pageComponents/Footer";
 
 const Pricing = () => {
   return (
-    <div className="container mx-auto px-4">
-      <Navbar />
-
+    <>
       <BlurFade delay={0.25} inView>
         <div className="text-center mt-20 flex flex-col items-center p-4">
           <BlurFade delay={0.35} inView>
@@ -29,7 +24,7 @@ const Pricing = () => {
           <PricingTabs />
         </div>
       </BlurFade>
-
+      
       <div className="flex flex-col items-center gap-2 my-40">
         <h3>Trusted by marketers at...</h3>
         <div className="flex flex-wrap justify-center items-center gap-4 mt-5">
@@ -62,10 +57,7 @@ const Pricing = () => {
       </div>
 
       <FAQs />
-
-
-      <Footer />
-    </div>
+    </>
   );
 };
 
