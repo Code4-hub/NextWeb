@@ -12,7 +12,7 @@ export const Navbar = () => {
         className="flex items-center gap-1 cursor-pointer"
         onClick={() => window.location.assign("/")}
       >
-        <SiDevexpress size={22} />
+     
         <LetterPullup
           className="jersey-10-regular"
           words={"NextWeb"}
