@@ -1,11 +1,11 @@
-import React from "react";
 import { SiDevexpress } from "react-icons/si";
 import LetterPullup from "@/components/magicui/letter-pullup";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { MobileNavBar } from "./MobileNavBar";
 
 export const Navbar = () => {
+  let navigate: any = useNavigate();
   return (
     <div className="flex items-center justify-between md:p-0 py-5">
       <div
@@ -50,8 +50,9 @@ export const Navbar = () => {
         size={"lg"}
         variant={"default"}
         className="rounded-full hidden md:block"
+        onClick={() => navigate("/contact-us")}
       >
-        Contact
+        Contact Us
       </Button>
 
       <MobileNavBar />
