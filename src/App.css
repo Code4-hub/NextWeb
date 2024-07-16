@@ -80,3 +80,9 @@
   font-weight: 400;
   font-style: normal;
 }
+
+.stroke-style{
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+  }

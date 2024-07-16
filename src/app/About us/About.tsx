@@ -1,3 +1,4 @@
+import NumberTicker from "@/components/magicui/number-ticker";
 const About = () => {
   return (
     <>
@@ -96,14 +97,9 @@ const About = () => {
             <div className="w-full max-lg:max-w-2xl mx-auto lg:mx-0 lg:w-1/3 bg-white p-6 rounded-2xl shadow-md shadow-gray-100">
               <div className="flex gap-5">
                 <div
-                  style={{
-                    color: "white",
-                    WebkitTextStrokeWidth: "1px",
-                    WebkitTextStrokeColor: "black",
-                  }}
-                  className="font-manrope text-2xl font-bold"
-                >
-                  240%
+                className="font-manrope text-4xl font-bold flex gap-1 stroke-style">
+                  <NumberTicker value={240} />
+                  <div>%</div>
                 </div>
                 <div className="flex-1">
                   <h4 className="text-xl text-gray-900 font-semibold mb-2">
@@ -119,14 +115,9 @@ const About = () => {
             <div className="w-full max-lg:max-w-2xl mx-auto lg:mx-0 lg:w-1/3 bg-white p-6 rounded-2xl shadow-md shadow-gray-100">
               <div className="flex gap-5">
                 <div
-                  style={{
-                    color: "white",
-                    WebkitTextStrokeWidth: "1px",
-                    WebkitTextStrokeColor: "black",
-                  }}
-                  className="font-manrope text-2xl font-bold"
-                >
-                  175+
+                className="font-manrope text-4xl font-bold flex gap-1 stroke-style">
+                  <NumberTicker value={175} />
+                  <div>+</div>
                 </div>
                 <div className="flex-1">
                   <h4 className="text-xl text-gray-900 font-semibold mb-2">
@@ -142,14 +133,9 @@ const About = () => {
             <div className="w-full max-lg:max-w-2xl mx-auto lg:mx-0 lg:w-1/3 bg-white p-6 rounded-2xl shadow-md shadow-gray-100">
               <div className="flex gap-5">
                 <div
-                  style={{
-                    color: "white",
-                    WebkitTextStrokeWidth: "1px",
-                    WebkitTextStrokeColor: "black",
-                  }}
-                  className="font-manrope text-2xl font-bold"
-                >
-                  625+
+                className="font-manrope text-4xl font-bold flex gap-1 stroke-style">
+                  <NumberTicker value={625} />
+                  <div>+</div>
                 </div>
                 <div className="flex-1">
                   <h4 className="text-xl text-gray-900 font-semibold mb-2">
