@@ -10,10 +10,9 @@ import { Navbar } from "./app/pageComponents/Navbar";
 import { Footer } from "./app/pageComponents/Footer";
 import { Privacy } from "./app/Terms-privacy/Privacy";
 import { Terms } from "./app/Terms-privacy/Terms";
+import ContactUs from "./app/Contact us/ContactUs";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
       <Router>
@@ -25,6 +24,7 @@ function App() {
             <Route path="/blog" element={<Blog />} />
             <Route path="/pricing" element={<Pricing />} />
             <Route path="/showcase" element={<Showcase />} />
+            <Route path="/contact-us" element={<ContactUs />} />
             <Route path="/terms" element={<Terms />} />
             <Route path="/privacy" element={<Privacy />} />
           </Routes>

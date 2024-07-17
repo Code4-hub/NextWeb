@@ -62,7 +62,7 @@ export const Footer = () => {
             <Link to={"/showcase"} className="text-md font-semibold">
               Products
             </Link>
-            <Link to={"/about"} className="text-md font-semibold">
+            <Link to={"/contact-us"} className="text-md font-semibold">
               Contact us
             </Link>
           </div>

@@ -9,9 +9,10 @@ import {
 } from "@/components/ui/sheet";
 import { Menu } from "lucide-react";
 import { SiDevexpress } from "react-icons/si";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 export function MobileNavBar() {
+  let navigate: any = useNavigate();
   return (
     <Sheet>
       <SheetTrigger asChild className="md:hidden">
@@ -51,6 +52,7 @@ export function MobileNavBar() {
               variant={"default"}
               size={"lg"}
               className="rounded-xl cursor-pointer py-6"
+              onClick={() => navigate("/contact-us")}
             >
               Contact us
             </Button>
