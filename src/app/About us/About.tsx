@@ -9,7 +9,7 @@ const About = () => {
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative text-center">
             <BlurFade delay={0.35} inView>
               <h1 className="max-w-2xl mx-auto text-center font-manrope font-bold text-4xl text-gray-900 mb-5 md:text-5xl md:leading-normal">
-                Innovate Your Web Presence with{" "}
+                Innovate Your Web Presence with
                 <span
                   style={{
                     color: "white",
