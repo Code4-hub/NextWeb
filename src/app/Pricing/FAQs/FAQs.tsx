@@ -1,4 +1,3 @@
-import React from "react";
 import { Accordions } from "./Accordation";
 import { Button } from "@/components/ui/button";
 

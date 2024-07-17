@@ -1,5 +1,3 @@
-import React from "react";
-
 export const Privacy = () => {
   return (
     <div className="max-w-[750px] m-auto mt-10 p-4">
