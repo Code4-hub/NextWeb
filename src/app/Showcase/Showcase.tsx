@@ -1,9 +1,9 @@
 import BlurFade from "@/components/magicui/blur-fade";
-import img1 from "./img/showcase-1.png";
-import img2 from "./img/showcase-2.png";
 import { Button } from "@/components/ui/button";
 
+
 const Showcase = () => {
+
   const data = [
     {
       id: 1,
@@ -107,7 +107,7 @@ const Showcase = () => {
               tools to create stunning demos that captivate your audience.
             </p>
           </div>
-          <Button className="bg-white text-black rounded-full px-5 py-6">
+          <Button className="bg-white text-black rounded-full px-5 py-6 hover:bg-zinc-300">
             Get started for free
           </Button>
         </div>

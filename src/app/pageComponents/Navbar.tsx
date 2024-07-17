@@ -1,8 +1,9 @@
 import { SiDevexpress } from "react-icons/si";
 import LetterPullup from "@/components/magicui/letter-pullup";
-import { Link, useNavigate } from "react-router-dom";
+import { Link, NavLink, useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { MobileNavBar } from "./MobileNavBar";
+
 
 export const Navbar = () => {
   let navigate: any = useNavigate();
@@ -20,36 +21,36 @@ export const Navbar = () => {
         />
       </div>
       <div className="hidden md:flex itesm-center gap-8 text-md ">
-        <Link
+        <NavLink
           to={"/blog"}
-          className="transition-all duration-100 text-muted-foreground hover:text-black "
+          className={({isActive})=>(isActive ? 'text-black transition-all duration-100 font-semibold':'text-muted-foreground transition-all duration-100')}
         >
           Blog
-        </Link>
-        <Link
+        </NavLink>
+        <NavLink
           to={"/showcase"}
-          className="transition-all duration-100 text-muted-foreground hover:text-black "
+          className={({isActive})=>(isActive ? 'text-black transition-all duration-100 font-semibold':'text-muted-foreground transition-all duration-100')}
         >
           Showcase
-        </Link>
-        <Link
+        </NavLink>
+        <NavLink
           to={"/pricing"}
-          className="transition-all duration-100 text-muted-foreground hover:text-black "
+          className={({isActive})=>(isActive ? 'text-black transition-all duration-100 font-semibold':'text-muted-foreground transition-all duration-100')}
         >
           Pricing
-        </Link>
-        <Link
+        </NavLink>
+        <NavLink
           to={"/about"}
-          className="transition-all duration-100 text-muted-foreground hover:text-black "
+          className={({isActive})=>(isActive ? 'text-black transition-all duration-100 font-semibold':'text-muted-foreground transition-all duration-100')}
         >
           About us
-        </Link>
+        </NavLink>
       </div>
 
       <Button
         size={"lg"}
         variant={"default"}
-        className="rounded-full hidden md:block"
+        className="rounded-full hidden md:block hover:bg-zinc-600"
         onClick={() => navigate("/contact-us")}
       >
         Contact Us
