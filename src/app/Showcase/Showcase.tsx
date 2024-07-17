@@ -72,11 +72,13 @@ const Showcase = () => {
           })}
         </div>
       </BlurFade>
-
-      <div className='mx-5 bg-black text-white flex flex-col gap-8 justify-between items-center px-10 py-6 rounded-lg mt-20 md:flex-row md:gap-0 md:px-16 '>
-        <h1 className='text-xl'>Create your first product demo on us!</h1>
-        <button className='bg-gray-600 px-4 py-2 rounded-lg hover:bg-gray-500 duration-200'>Get started for free</button>
-      </div>
+      <BlurFade delay={0.45} inView>
+        <div className='mx-5 bg-black text-white flex flex-col gap-8 justify-between items-center px-10 py-6 rounded-lg mt-20 md:flex-row md:gap-0 md:px-16 '>
+          <h1 className='text-xl'>Create your first product demo on us!</h1>
+          <button className='bg-gray-600 px-4 py-2 rounded-lg hover:bg-gray-500 duration-200'>Get started for free</button>
+        </div>
+      </BlurFade>
+      
 
     </div>
   )
