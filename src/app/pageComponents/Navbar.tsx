@@ -22,6 +22,12 @@ export const Navbar = () => {
       </div>
       <div className="hidden md:flex itesm-center gap-8 text-md ">
         <NavLink
+          to={"/"}
+          className={({isActive})=>(isActive ? 'text-black transition-all duration-100 font-semibold':'text-muted-foreground transition-all duration-100')}
+        >
+          Home
+        </NavLink>
+        <NavLink
           to={"/blog"}
           className={({isActive})=>(isActive ? 'text-black transition-all duration-100 font-semibold':'text-muted-foreground transition-all duration-100')}
         >

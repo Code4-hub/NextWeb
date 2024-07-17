@@ -44,6 +44,9 @@ export const Footer = () => {
             <h5 className=" text-lg font-bold">
               Resources
             </h5>
+            <Link to={"/"} className="text-md font-semibold text-muted-foreground hover:text-black">
+              Home
+            </Link>
             <Link to={"/blog"} className="text-md font-semibold text-muted-foreground hover:text-black">
               Blog
             </Link>
