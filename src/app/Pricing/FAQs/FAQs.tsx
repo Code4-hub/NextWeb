@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 
 export const FAQs = () => {
   return (
-    <div className="my-40 max-w-[800px] m-auto">
+    <div className="my-40  m-auto">
       <div className="flex flex-col gap-4 mb-20">
         <h4 className="text-md font-bold">Support</h4>
         <h3 className="text-4xl font-bold">FAQs</h3>
