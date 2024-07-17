@@ -1,7 +1,7 @@
 import { Accordions } from "./Accordation";
 import { Button } from "@/components/ui/button";
 
-export const FAQs = () => {
+export const FAQs : React.FC = () => {
   return (
     <div className="my-40  m-auto">
       <div className="flex flex-col gap-4 mb-20">

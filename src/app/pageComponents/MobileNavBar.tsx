@@ -11,8 +11,9 @@ import { Menu } from "lucide-react";
 import { SiDevexpress } from "react-icons/si";
 import { Link, useNavigate } from "react-router-dom";
 
-export function MobileNavBar() {
-  let navigate: any = useNavigate();
+export const MobileNavBar: React.FC = () => {
+  const navigate = useNavigate();
+
   return (
     <Sheet>
       <SheetTrigger asChild className="md:hidden">
@@ -61,4 +62,4 @@ export function MobileNavBar() {
       </SheetContent>
     </Sheet>
   );
-}
+};

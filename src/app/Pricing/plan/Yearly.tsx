@@ -3,7 +3,7 @@ import { FaCheck } from "react-icons/fa";
 import { Separator } from "@/components/ui/separator";
 import BlurFade from "@/components/magicui/blur-fade";
 
-export const Yearly = () => {
+export const Yearly : React.FC = () => {
   return (
     <div className="grid lg:grid-cols-3 gap-5 w-full mt-5">
       <BlurFade delay={0.05} inView>

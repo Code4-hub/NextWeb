@@ -2,7 +2,7 @@ import { PricingTabs } from "./PricingTabs";
 import BlurFade from "@/components/magicui/blur-fade";
 import { FAQs } from "./FAQs/FAQs";
 
-const Pricing = () => {
+const Pricing : React.FC = () => {
   return (
     <>
       <BlurFade delay={0.25} inView>

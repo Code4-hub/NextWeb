@@ -4,7 +4,7 @@ import LetterPullup from "@/components/magicui/letter-pullup";
 import { FaGithub, FaFacebookSquare, FaLinkedinIn } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
-export const Footer = () => {
+export const Footer :React.FC  = () => {
   return (
     <div>
       <Separator className="my-4" />

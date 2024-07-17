@@ -1,5 +1,5 @@
 import heroSectionImg from "../../../public/imgs/heroSectionImg.png";
-const Home = () => {
+const Home : React.FC = () => {
   return (
     <>
   <section className="lg:pl-8 h-full">

@@ -1,4 +1,4 @@
-export const Terms = () => {
+export const Terms : React.FC = () => {
   return (
     <div className="max-w-[750px] m-auto mt-10 p-4">
       <h1 className="text-5xl font-bold mb-10 mt-10">Terms and Conditions</h1>

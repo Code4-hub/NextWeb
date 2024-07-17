@@ -4,9 +4,9 @@ import { NavLink, useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { MobileNavBar } from "./MobileNavBar";
 
-
-export const Navbar = () => {
-  let navigate: any = useNavigate();
+export const Navbar: React.FC = () => {
+  const navigate = useNavigate();
+  
   return (
     <div className="flex items-center justify-between md:p-0 py-5">
       <div
@@ -20,34 +20,34 @@ export const Navbar = () => {
           delay={0.05}
         />
       </div>
-      <div className="hidden md:flex itesm-center gap-8 text-md ">
+      <div className="hidden md:flex items-center gap-8 text-md ">
         <NavLink
           to={"/"}
-          className={({isActive})=>(isActive ? 'text-black transition-all duration-100 font-semibold':'text-muted-foreground transition-all duration-100')}
+          className={({ isActive }) => (isActive ? 'text-black transition-all duration-100 font-semibold' : 'text-muted-foreground transition-all duration-100')}
         >
           Home
         </NavLink>
         <NavLink
           to={"/blog"}
-          className={({isActive})=>(isActive ? 'text-black transition-all duration-100 font-semibold':'text-muted-foreground transition-all duration-100')}
+          className={({ isActive }) => (isActive ? 'text-black transition-all duration-100 font-semibold' : 'text-muted-foreground transition-all duration-100')}
         >
           Blog
         </NavLink>
         <NavLink
           to={"/showcase"}
-          className={({isActive})=>(isActive ? 'text-black transition-all duration-100 font-semibold':'text-muted-foreground transition-all duration-100')}
+          className={({ isActive }) => (isActive ? 'text-black transition-all duration-100 font-semibold' : 'text-muted-foreground transition-all duration-100')}
         >
           Showcase
         </NavLink>
         <NavLink
           to={"/pricing"}
-          className={({isActive})=>(isActive ? 'text-black transition-all duration-100 font-semibold':'text-muted-foreground transition-all duration-100')}
+          className={({ isActive }) => (isActive ? 'text-black transition-all duration-100 font-semibold' : 'text-muted-foreground transition-all duration-100')}
         >
           Pricing
         </NavLink>
         <NavLink
           to={"/about"}
-          className={({isActive})=>(isActive ? 'text-black transition-all duration-100 font-semibold':'text-muted-foreground transition-all duration-100')}
+          className={({ isActive }) => (isActive ? 'text-black transition-all duration-100 font-semibold' : 'text-muted-foreground transition-all duration-100')}
         >
           About us
         </NavLink>

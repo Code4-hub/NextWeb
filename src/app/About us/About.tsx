@@ -1,7 +1,7 @@
 import NumberTicker from "@/components/magicui/number-ticker";
 import BlurFade from "@/components/magicui/blur-fade";
 
-const About = () => {
+const About : React.FC = () => {
   return (
     <>
       <BlurFade delay={0.25} inView>
