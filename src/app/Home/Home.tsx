@@ -8,7 +8,7 @@ import { yellow } from '@mui/material/colors';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import { FaCheck } from "react-icons/fa";
 import { useNavigate } from 'react-router-dom';
-import { Button } from "@/components/ui/button";
+
 
 const Home: React.FC = () => {
   const navigate = useNavigate();
@@ -181,6 +181,3 @@ const Home: React.FC = () => {
 };
 
 export default Home;
-
-
-

@@ -3,7 +3,7 @@ import { Badge } from "@/components/ui/badge";
 import { Monthly } from "./plan/Monthly";
 import { Yearly } from "./plan/Yearly";
 
-export function PricingTabs() {
+export const PricingTabs: React.FC = () => {
   return (
     <Tabs defaultValue="monthly" className="mt-10 w-full">
       <TabsList className="max-grid max-w-[500px] grid-cols-2 h-auto rounded-full">
@@ -31,4 +31,4 @@ export function PricingTabs() {
       </TabsContent>
     </Tabs>
   );
-}
+};

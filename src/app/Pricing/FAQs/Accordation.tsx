@@ -5,7 +5,7 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 
-export function Accordions() {
+export function Accordions(): JSX.Element {
   return (
     <Accordion type="single" collapsible className="w-full">
       <AccordionItem value="item-1">
@@ -38,7 +38,7 @@ export function Accordions() {
         </AccordionContent>
       </AccordionItem>
       <AccordionItem value="item-3">
-        <AccordionTrigger className="text-xl text-start">
+        <AccordionTrigger className="text-xl">
           What's the difference between the "Professional" and "Enterprise"
           plans?
         </AccordionTrigger>
