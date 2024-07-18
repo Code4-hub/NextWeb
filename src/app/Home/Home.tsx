@@ -8,7 +8,7 @@ import { yellow } from '@mui/material/colors';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import { FaCheck } from "react-icons/fa";
 import { useNavigate } from 'react-router-dom';
-
+import { Button } from "@/components/ui/button";
 
 const Home: React.FC = () => {
   const navigate = useNavigate();
@@ -175,9 +175,24 @@ const Home: React.FC = () => {
             </button>
       </div>
       <div className='h-20'></div>
-    
+      <Separator className="my-6" />
+      <div className="flex flex-col gap-4 mb-20">
+        <h4 className="text-md font-bold">Support</h4>
+        <h3 className="text-4xl font-bold">FAQs</h3>
+        <p className="text-lg text-muted-foreground">
+          Everything you need to know about the product and billing. Can’t find
+          the answer you’re looking for? Please chat to our team.
+        </p>
+
+        <div>
+          <Button size={"lg"} className="py-6 rounded-xl">
+            Get in touch
+          </Button>
+        </div>
+      </div>
     </div>
-  );
+  
+);
 };
 
 export default Home;
