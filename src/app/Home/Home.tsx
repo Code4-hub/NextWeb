@@ -185,7 +185,7 @@ const Home: React.FC = () => {
         </p>
 
         <div>
-          <Button size={"lg"} className="py-6 rounded-xl">
+          <Button onClick={() => navigate('/contact-us')} size={"lg"} className="py-6 rounded-xl">
             Get in touch
           </Button>
         </div>
