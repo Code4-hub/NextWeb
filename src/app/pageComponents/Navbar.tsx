@@ -1,4 +1,3 @@
-import { SiDevexpress } from "react-icons/si";
 import LetterPullup from "@/components/magicui/letter-pullup";
 import { NavLink, useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
