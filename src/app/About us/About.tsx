@@ -1,7 +1,10 @@
 import NumberTicker from "@/components/magicui/number-ticker";
 import BlurFade from "@/components/magicui/blur-fade";
+import MissionImg from "./img/mission.jpeg";
+import InnovationImg from "./img/innovation.jpeg";
+import AboutImg from "./img/about.jpeg";
 
-const About : React.FC = () => {
+const About: React.FC = () => {
   return (
     <>
       <BlurFade delay={0.25} inView>
@@ -38,7 +41,7 @@ const About : React.FC = () => {
               <BlurFade delay={0.3} inView>
                 <div className="img-box">
                   <img
-                    src="https://downloader.la/temp/[Downloader.la]-6696a068dc97d.jpg"
+                    src={AboutImg}
                     alt="About Us"
                     className="max-lg:mx-auto rounded-xl"
                   />
@@ -72,8 +75,8 @@ const About : React.FC = () => {
                 <BlurFade delay={0.3} inView>
                   <div className="data w-full">
                     <img
-                      src="https://downloader.la/temp/[Downloader.la]-6696a25629c1b.jpg"
-                      alt="About Us"
+                      src={InnovationImg}
+                      alt="Innovation"
                       className="block lg:hidden mb-9 mx-auto rounded-xl"
                     />
                     <h2 className="font-manrope font-bold text-4xl lg:text-5xl text-black mb-9 max-lg:text-center">
@@ -92,7 +95,7 @@ const About : React.FC = () => {
               </div>
               <div className="img-box ">
                 <img
-                  src="https://downloader.la/temp/[Downloader.la]-6696a25629c1b.jpg"
+                  src={InnovationImg}
                   alt="About Us"
                   className="hidden lg:block max-lg:mx-auto rounded-xl"
                 />
@@ -102,14 +105,13 @@ const About : React.FC = () => {
         </section>
       </BlurFade>
 
-
       <section className="py-14 lg:py-24 relative">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative ">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-9">
             <BlurFade delay={0.3} inView>
               <div className="img-box">
                 <img
-                  src="https://downloader.la/temp/[Downloader.la]-6696a18d5f0ff.jpg"
+                  src={MissionImg}
                   alt="Our Vision and Mission"
                   className="max-lg:mx-auto rounded-xl"
                 />
