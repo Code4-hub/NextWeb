@@ -26,7 +26,8 @@ function App() {
 
 function Content() {
   const location = useLocation();
-  const hideNavbarAndFooter = location.pathname === "/";
+  const hideNavbarAndFooter =
+    location.pathname === "/" || location.pathname === "/contact-us";
 
   return (
     <div className={`${!hideNavbarAndFooter && "container mx-auto px-4"}`}>
