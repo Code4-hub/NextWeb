@@ -40,15 +40,20 @@
       name="twitter:image"
       content="https://next-web-kappa.vercel.app/path-to-image.jpg"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Jersey+10&display=swap"
-      rel="stylesheet"
-    />
+
+    <script>
+      (function () {
+        var link = document.createElement("link");
+        link.href =
+          "https://fonts.googleapis.com/css2?family=Jersey+10&display=swap";
+        link.rel = "stylesheet";
+        link.type = "text/css";
+        document.head.appendChild(link);
+      })();
+    </script>
   </head>
   <body>
     <main id="root" role="main"></main>
-    <script type="module" src="/src/main.tsx"></script>
+    <script type="module" src="/src/main.tsx" defer></script>
   </body>
 </html>
