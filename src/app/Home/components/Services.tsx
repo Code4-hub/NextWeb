@@ -123,7 +123,7 @@ export const Services = () => {
               loading="lazy"
             />
             <div>
-              <h6>Gemma Fishel</h6>
+              <div>Gemma Fishel</div>
               <p className="text-xs text-muted-foreground">
                 Commercial Manager
               </p>

@@ -39,7 +39,7 @@ export const Footer: React.FC = () => {
         </div>
         <div className="flex md:w-[30%]  mt-10 xl:gap-20">
           <div className="flex flex-col gap-3 w-[50%]">
-            <h5 className=" text-lg font-bold">Resources</h5>
+            <div className=" text-lg font-bold">Resources</div>
             <Link
               to={"/"}
               className="text-md font-semibold text-muted-foreground hover:text-black"
@@ -66,7 +66,7 @@ export const Footer: React.FC = () => {
             </Link>
           </div>
           <div className="flex flex-col gap-3">
-            <h5 className=" text-lg font-bold">Product</h5>
+            <div className=" text-lg font-bold">Product</div>
             <Link
               to={"/blog"}
               className="text-md font-semibold text-muted-foreground hover:text-black"
