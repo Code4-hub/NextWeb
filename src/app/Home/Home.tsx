@@ -1,4 +1,3 @@
-import React from "react";
 import { Hero } from "./components/Hero";
 import { TextReveals } from "./components/TextReveal";
 import { Services } from "./components/Services";
