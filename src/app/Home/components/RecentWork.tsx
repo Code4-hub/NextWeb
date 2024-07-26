@@ -109,7 +109,7 @@ export const RecentWork = () => {
                   />
 
                   <div className="flex items-center justify-between ">
-                    <h6 className="text-lg font-semibold">{item.title}</h6>
+                    <div className="text-lg font-semibold">{item.title}</div>
                     <div className="flex items-center gap-1 text-sm text-red-500">
                       <FaHeart />
                       <span>{item.likes}</span>
