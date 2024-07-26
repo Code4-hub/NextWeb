@@ -53,12 +53,12 @@ export const Services = () => {
       <div className="container space-y-5 pb-10">
         <BlurFade delay={0.25} inView>
           <div className="text-center h-20 my-10">
-            <h4 className="font-semibold text-white md:text-sm text-xs">
+            <div className="font-semibold text-white md:text-sm text-xs">
               WHY US
-            </h4>
-            <h3 className="md:text-4xl text-3xl font-bold text-white">
+            </div>
+            <div className="md:text-4xl text-3xl font-bold text-white">
               Results-driven design, with a personal touch
-            </h3>
+            </div>
           </div>
         </BlurFade>
         {content.map((item, key) => (
@@ -109,10 +109,10 @@ export const Services = () => {
             className="w-40"
             loading="lazy"
           />
-          <h5 className="text-4xl text-center max-w-4xl">
+          <div className="text-4xl text-center max-w-4xl">
             "I really like the different style of layouts NextWeb has used with
             our content, yet still within our guidelines!"
-          </h5>
+          </div>
           <div className="flex items-center gap-4">
             <img
               src="https://www.speechify.ai/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fspeechify-ai-api-prod-centralized-voice-list%2Fbase%2Favatars%2Fen-US-Henry-Speechify-gpttts.webp&w=96&q=75"
