@@ -50,6 +50,7 @@ export const Hero = () => {
               <Button
                 className="px-10 py-6 lg:py-8 lg:px-14 lg:text-lg rounded-full"
                 aria-label="Get started"
+                onClick={() => window.location.assign("/contact-us")}
               >
                 Get started
               </Button>
