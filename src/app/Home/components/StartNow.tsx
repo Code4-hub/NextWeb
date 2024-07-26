@@ -33,6 +33,7 @@ export const StartNow = () => {
             className="bg-white text-black px-8 py-6 rounded-full text-lg flex items-center gap-1 transition-all duration-200 ease-in-out hover:gap-3 hover:bg-gray-100"
             variant={"default"}
             onClick={() => window.location.assign("/pricing")}
+            aria-label="Start now"
           >
             <span> Start here</span>
             <TiArrowRight />

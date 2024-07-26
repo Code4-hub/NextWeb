@@ -47,13 +47,18 @@ export const Hero = () => {
           </BlurFade>
           <BlurFade delay={0.55} inView>
             <div className="flex flex-col lg:flex-row items-center gap-5 justify-center lg:justify-start mt-5">
-              <Button className="px-10 py-6 lg:py-8 lg:px-14 lg:text-lg rounded-full">
+              <Button
+                className="px-10 py-6 lg:py-8 lg:px-14 lg:text-lg rounded-full"
+                aria-label="Get started"
+              >
                 Get started
               </Button>
 
               <img
                 src="https://cdn.prod.website-files.com/63ec3effff39420d76cf9f4e/64a4ef46552188a624b62cab_Google%20Reviews4.9.svg"
                 className="w-40 md:w-[13rem]"
+                loading="lazy"
+                alt="Google reviews"
               />
             </div>
           </BlurFade>
@@ -78,6 +83,7 @@ export const Hero = () => {
                   src={image.src}
                   alt={image.alt}
                   className="w-40 object-contain mx-2"
+                  loading="lazy"
                 />
               ))}
             </Marquee>

@@ -105,6 +105,7 @@ export const RecentWork = () => {
                     src={item.img}
                     alt="website project img"
                     className="rounded-xl"
+                    loading="lazy"
                   />
 
                   <div className="flex items-center justify-between ">
@@ -115,7 +116,12 @@ export const RecentWork = () => {
                     </div>
                   </div>
 
-                  <img src={item.logo} className="w-[8rem] aspect-1/2" />
+                  <img
+                    src={item.logo}
+                    className="w-[8rem] aspect-1/2"
+                    alt="Company Logo"
+                    loading="lazy"
+                  />
 
                   <div className="flex items-center gap-4">
                     <a href={item.link} className="flex-1 " target="_blank">
@@ -123,11 +129,16 @@ export const RecentWork = () => {
                         variant={"outline"}
                         size={"lg"}
                         className="w-full py-6 text-md"
+                        aria-label="Visit live site"
                       >
                         Visit live site
                       </Button>
                     </a>
-                    <Button variant={"outline"} className="px-4 py-6">
+                    <Button
+                      variant={"outline"}
+                      className="px-4 py-6"
+                      aria-label="Like project"
+                    >
                       <FaRegHeart size={22} />
                     </Button>
                   </div>
