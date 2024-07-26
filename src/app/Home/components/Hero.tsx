@@ -41,7 +41,7 @@ export const Hero = () => {
             </h1>
           </BlurFade>
           <BlurFade delay={0.45} inView>
-            <h2 className="text-3xl md:text-4xl lg:text-6xl font-bold text-[#A9A29D]">
+            <h2 className="text-3xl md:text-4xl lg:text-6xl font-bold text-[#6D6A6A]">
               NextWeb: Building Your Digital Future with Expert Web Development
             </h2>
           </BlurFade>
@@ -73,9 +73,9 @@ export const Hero = () => {
         </BlurFade>
         <BlurFade delay={0.35} inView>
           <div className="my-40">
-            <h3 className="text-xl font-semibold mb-4 text-center text-muted-foreground">
+            <h2 className="text-xl font-semibold mb-4 text-center text-muted-foreground">
               Get in touch with the companies who trust us
-            </h3>
+            </h2>
             <Marquee pauseOnHover className="[--duration:20s] flex">
               {images.map((image, index) => (
                 <img
