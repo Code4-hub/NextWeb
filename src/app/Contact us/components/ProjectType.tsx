@@ -72,7 +72,7 @@ export const ProjectType: React.FC<SwipPage> = ({ onNext, onBack }) => {
 
   return (
     <BlurFade delay={0.25} inView>
-      <div className="flex flex-col gap-5 w-[400px]">
+      <div className="flex flex-col gap-5 md:max-w-[450px] w-full m-5">
         <div>
           <h1 className="text-4xl font-semibold">How can we help?</h1>
           <p>Please select one of the following options</p>

@@ -65,12 +65,12 @@ export const Services = () => {
           <BlurFade delay={0.25} inView key={item.title}>
             <div className="flex lg:items-center flex-col lg:flex-row gap-5 lg:h-[80vh]">
               <div className="lg:w-[50%]">
-                <h4 className="font-semibold text-white md:text-sm text-xs mb-5">
+                <div className="font-semibold text-white md:text-sm text-xs mb-5">
                   {item.subTitle}
-                </h4>
-                <h3 className="md:text-4xl text-3xl font-bold text-white">
+                </div>
+                <div className="md:text-4xl text-3xl font-bold text-white">
                   {item.title}
-                </h3>
+                </div>
                 <p className="mt-5 md:text-xl text-lg text-gray-300">
                   {item.description}
                 </p>

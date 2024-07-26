@@ -46,7 +46,7 @@ export const PersonalInfo: React.FC<SwipPage> = ({ onNext, onBack }) => {
   };
 
   return (
-    <div className="flex flex-col gap-5 max-w-[450px]">
+    <div className="flex flex-col gap-5 md:max-w-[450px] w-full m-5">
       <div>
         <h1 className="text-4xl font-semibold mb-1">Get your quote!</h1>
         <p>To receive your quote, please enter your contact details</p>
