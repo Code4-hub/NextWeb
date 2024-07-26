@@ -15,6 +15,7 @@ import { Navbar } from "./app/pageComponents/Navbar";
 import { Footer } from "./app/pageComponents/Footer";
 import { Privacy } from "./app/Terms-privacy/Privacy";
 import { Terms } from "./app/Terms-privacy/Terms";
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function Content() {
 
   return (
     <div className={`${!hideNavbarAndFooter && "container mx-auto px-4"}`}>
+      <Analytics />
       {!hideNavbarAndFooter && <Navbar />}
       <Routes>
         <Route path="/" element={<Home />} />
