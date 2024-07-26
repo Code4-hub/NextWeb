@@ -1,4 +1,3 @@
-import React from "react";
 import { FaHandshake } from "react-icons/fa6";
 import { SiMaterialdesign } from "react-icons/si";
 import { IoDesktopOutline } from "react-icons/io5";

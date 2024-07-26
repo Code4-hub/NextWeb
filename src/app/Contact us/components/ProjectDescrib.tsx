@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import { SwipPage } from "./Welcome";
 import { Button } from "@/components/ui/button";
 import { TiArrowRight, TiArrowLeft } from "react-icons/ti";
-import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 
 export const ProjectDescribe: React.FC<SwipPage> = ({ onNext, onBack }) => {

@@ -3,7 +3,7 @@ import { SwipPage } from "./Welcome";
 import { Button } from "@/components/ui/button";
 import { TiArrowRight, TiArrowLeft } from "react-icons/ti";
 import { Input } from "@/components/ui/input";
-import { Label } from "@/components/ui/label";
+
 
 export const Budget: React.FC<SwipPage> = ({ onNext, onBack }) => {
   const [message, setMessage] = useState<string>("");

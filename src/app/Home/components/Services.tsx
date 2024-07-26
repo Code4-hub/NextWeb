@@ -1,4 +1,3 @@
-import React from "react";
 import BlurFade from "@/components/magicui/blur-fade";
 import { Button } from "@/components/ui/button";
 

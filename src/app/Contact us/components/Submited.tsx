@@ -1,6 +1,4 @@
-import React from "react";
 import { Button } from "@/components/ui/button";
-import { ConfettiButton } from "@/components/magicui/confetti";
 
 export const Submited = () => {
   return (

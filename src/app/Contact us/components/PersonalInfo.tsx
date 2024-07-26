@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { SwipPage } from "./Welcome";
 import { Button } from "@/components/ui/button";
-import { TiArrowRight, TiArrowLeft } from "react-icons/ti";
+import { TiArrowLeft } from "react-icons/ti";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 
