@@ -1,11 +1,9 @@
 {
+  "version": 2,
   "builds": [
     {
-      "src": "src/main.tsx",
-      "use": "@vercel/static-build",
-      "config": {
-        "distDir": "dist"
-      }
+      "src": "package.json",
+      "use": "@vercel/static-build"
     }
   ],
   "routes": [
