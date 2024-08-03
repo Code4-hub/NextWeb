@@ -11,11 +11,13 @@ import About from "./app/About us/About";
 import Pricing from "./app/Pricing/Pricing";
 import Showcase from "./app/Showcase/Showcase";
 import ContactUs from "./app/Contact us/ContactUs";
+
 import { Navbar } from "./app/pageComponents/Navbar";
 import { Footer } from "./app/pageComponents/Footer";
 import { Privacy } from "./app/Terms-privacy/Privacy";
 import { Terms } from "./app/Terms-privacy/Terms";
 import { Analytics } from "@vercel/analytics/react";
+import { Homes } from "./app/Blog/pages/Home";
 
 function App() {
   return (
@@ -38,6 +40,7 @@ function Content() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/blog" element={<Blog />} />
+        <Route path="/blog/:page" element={<Homes />} />
         <Route path="/pricing" element={<Pricing />} />
         <Route path="/showcase" element={<Showcase />} />
         <Route path="/contact-us" element={<ContactUs />} />
