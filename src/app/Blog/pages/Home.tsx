@@ -1,19 +1,19 @@
-import React, { lazy, Suspense, useMemo } from 'react';
-import { useParams } from 'react-router-dom';
-import { componentsData } from './componentsData';
+import React, { lazy, Suspense } from "react";
+import { useParams } from "react-router-dom";
+import { componentsData } from "./ComponentsData";
 
-const importComponent = (path: string) => lazy(() => import(`${path}`).then(module => ({ default: module.default })));
+const componentMap: { [key: string]: React.LazyExoticComponent<React.FC> } = {};
 
-const Home: React.FC = () => {
-  const { page } = useParams<{ page?: string }>();
-  const pageKey = page?.toLowerCase();
-  
-  const Component = useMemo(() => {
-    const componentData = componentsData.find(
-      (data) => data.title.toLowerCase() === pageKey
-    );
-    return componentData ? importComponent(componentData.path) : null;
-  }, [pageKey]);
+componentsData.forEach((component) => {
+  componentMap[component.title.toLowerCase()] = lazy(() =>
+    import(`${component.path}`).then((module) => ({ default: module.default }))
+  );
+});
+
+export const Homes: React.FC = () => {
+  const params = useParams<{ page?: string }>();
+  const page = params.page?.toLowerCase();
+  const Component = page ? componentMap[page] : null;
 
   return (
     <div>
@@ -24,4 +24,4 @@ const Home: React.FC = () => {
   );
 };
 
-export default Home;
+export default Homes;
