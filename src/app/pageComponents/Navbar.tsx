@@ -15,7 +15,7 @@ export const Navbar: React.FC = () => {
      
         <LetterPullup
           className="jersey-10-regular"
-          words={"NextWeb"}
+          words={"AutomatorDev.soft"}
           delay={0.05}
         />
       </div>
@@ -39,12 +39,6 @@ export const Navbar: React.FC = () => {
           Showcase
         </NavLink>
         <NavLink
-          to={"/pricing"}
-          className={({ isActive }) => (isActive ? 'text-black transition-all duration-100 font-semibold' : 'text-muted-foreground transition-all duration-100')}
-        >
-          Pricing
-        </NavLink>
-        <NavLink
           to={"/about"}
           className={({ isActive }) => (isActive ? 'text-black transition-all duration-100 font-semibold' : 'text-muted-foreground transition-all duration-100')}
         >
@@ -56,7 +50,7 @@ export const Navbar: React.FC = () => {
         size={"lg"}
         variant={"default"}
         className="rounded-full hidden md:block hover:bg-zinc-600"
-        onClick={() => navigate("/contact-us")}
+        onClick={() => navigate("/conatctu")}
       >
         Contact Us
       </Button>

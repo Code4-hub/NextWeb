@@ -8,9 +8,10 @@ import {
 import Home from "./app/Home/Home";
 import Blog from "./app/Blog/Blog";
 import About from "./app/About us/About";
-import Pricing from "./app/Pricing/Pricing";
 import Showcase from "./app/Showcase/Showcase";
 import ContactUs from "./app/Contact us/ContactUs";
+import ContactU from "./app/ContactU/Contactu";
+
 
 import { Navbar } from "./app/pageComponents/Navbar";
 import { Footer } from "./app/pageComponents/Footer";
@@ -41,11 +42,11 @@ function Content() {
         <Route path="/about" element={<About />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/blog/:page" element={<Homes />} />
-        <Route path="/pricing" element={<Pricing />} />
         <Route path="/showcase" element={<Showcase />} />
         <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/terms" element={<Terms />} />
         <Route path="/privacy" element={<Privacy />} />
+        <Route path="/conatctu" element={<ContactU />} />
       </Routes>
       {!hideNavbarAndFooter && <Footer />}
     </div>

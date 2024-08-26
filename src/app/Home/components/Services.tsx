@@ -3,10 +3,10 @@ import { Button } from "@/components/ui/button";
 import ImgOne from "../img/imgOne.webp";
 import ImgTwo from "../img/imgTwo.webp";
 import ImgTree from "../img/imgTree.webp";
+import ocharfao from "../components/ocharfao.jpg"
 
 type Data = {
   title: string;
-  subTitle: string;
   description: string;
   img: string;
   width: number;
@@ -16,30 +16,27 @@ type Data = {
 
 const content: Data[] = [
   {
-    subTitle: "CUSTOM DESIGN",
-    title: "A website you can call your own",
+    title: "Ease of Use",
     description:
-      "Our team custom builds and designs every site we create. Your business is unique, so your website should be too.",
+      "Simplicity at its finest. Our apps are designed with ease of use in mind, ensuring that even beginners can navigate and utilize them effortlessly. Say goodbye to complicated interfaces and hello to a seamless user experience.",
     img: ImgOne,
     width: 600,
     height: 400,
     alt: "Custom website design image",
   },
   {
-    subTitle: "RELIABLE",
-    title: "We don’t disappear after the work is done",
+    title: "Innovation",
     description:
-      "Web design often faces a commitment problem. You won’t find us trying to sneak out the moment the project is finished.",
+      "Innovation is at the heart of everything we do. We constantly strive to bring you the latest advancements in software solutions, so you can stay ahead of the curve and benefit from cutting-edge technology.",
     img: ImgTwo,
     width: 600,
     height: 400,
     alt: "Reliable web design service image",
   },
   {
-    subTitle: "MY GUARANTEE",
-    title: "Try us out, risk-free!",
+    title: "Community Focus",
     description:
-      "If you're not happy with the design after the first draft, we will refund your deposit, no questions asked.",
+      "Join a thriving community of users and developers who are passionate about technology. Collaboration and support are at the core of our community, making it the perfect place to share ideas, learn from others, and grow together.",
     img: ImgTree,
     width: 600,
     height: 400,
@@ -65,9 +62,7 @@ export const Services = () => {
           <BlurFade delay={0.25} inView key={item.title}>
             <div className="flex lg:items-center flex-col lg:flex-row gap-5 lg:h-[80vh]">
               <div className="lg:w-[50%]">
-                <div className="font-semibold text-white md:text-sm text-xs mb-5">
-                  {item.subTitle}
-                </div>
+      
                 <div className="md:text-4xl text-3xl font-bold text-white">
                   {item.title}
                 </div>
@@ -101,31 +96,23 @@ export const Services = () => {
         ))}
 
         <div className="flex flex-col items-center gap-7">
-          <img
-            src="https://assets-global.website-files.com/63b78919476f228ce0b0bdf6/63dbf7877692382fc4e56c6a_Logo.png"
-            width="200"
-            height="200"
-            alt="Company logo"
-            className="w-40"
-            loading="lazy"
-          />
           <div className="text-4xl text-center max-w-4xl">
-            "I really like the different style of layouts NextWeb has used with
+            "I really like the different style of layouts AutomatorDev has used with
             our content, yet still within our guidelines!"
           </div>
           <div className="flex items-center gap-4">
             <img
-              src="https://www.speechify.ai/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fspeechify-ai-api-prod-centralized-voice-list%2Fbase%2Favatars%2Fen-US-Henry-Speechify-gpttts.webp&w=96&q=75"
+              src={ocharfao}
               width="96"
               height="96"
               alt="Profile of Gemma Fishel"
-              className="size-12"
+              className="size-12 rounded-[50%]"
               loading="lazy"
             />
             <div>
-              <div>Gemma Fishel</div>
+              <div>Othmane charfaoui</div>
               <p className="text-xs text-muted-foreground">
-                Commercial Manager
+                Full Stack developer
               </p>
             </div>
           </div>

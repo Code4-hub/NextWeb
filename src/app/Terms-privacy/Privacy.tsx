@@ -5,29 +5,22 @@ export const Privacy : React.FC = () => {
 
       <h2 className="text-2xl font-semibold mb-4">1. Introduction</h2>
       <p className="mb-4">
-        Welcome to NextWeb. We are committed to protecting your privacy. This
-        Privacy Policy explains how we collect, use, disclose, and safeguard
-        your information when you visit our website or use our services. Please
-        read this Privacy Policy carefully.
+      automatorDev is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and share information when you use our platform.
       </p>
 
       <h2 className="text-2xl font-semibold mb-4">2. Information We Collect</h2>
       <p className="mb-4">
-        We may collect personal information that you provide to us, such as your
-        name, email address, phone number, and payment information. We also
-        collect information automatically when you visit our website, such as
-        your IP address, browser type, and operating system.
+      Personal Information: When you create an account, we may collect personal information such as your name, email address, and any other details you provide.
+      Usage Data: We collect information about how you interact with our platform, including pages visited, time spent on the platform, and other usage details.
+
       </p>
 
       <h2 className="text-2xl font-semibold mb-4">
-        3. Use of Your Information
+        3.Sharing Your Information
       </h2>
       <p className="mb-4">
-        We use the information we collect to provide, operate, and maintain our
-        services, to improve and personalize your experience, and to communicate
-        with you. We may also use your information to process transactions and
-        send you related information, including purchase confirmations and
-        invoices.
+      Third-Party Services: We may share your information with third-party service providers that assist us in operating the platform, provided they agree to keep your information confidential.
+      Legal Requirements: We may disclose your information if required by law or in response to legal processes.
       </p>
 
       <h2 className="text-2xl font-semibold mb-4">
@@ -42,13 +35,10 @@ export const Privacy : React.FC = () => {
       </p>
 
       <h2 className="text-2xl font-semibold mb-4">
-        5. Security of Your Information
+        5. Security
       </h2>
       <p className="mb-4">
-        We use administrative, technical, and physical security measures to help
-        protect your personal information. While we have taken reasonable steps
-        to secure the personal information you provide to us, please be aware
-        that no security measures are perfect or impenetrable.
+      We implement appropriate security measures to protect your information from unauthorized access, alteration, or destruction. However, no method of transmission over the Internet or electronic storage is 100% secure.
       </p>
 
       <h2 className="text-2xl font-semibold mb-4">6. Data Retention</h2>
@@ -59,75 +49,37 @@ export const Privacy : React.FC = () => {
       </p>
 
       <h2 className="text-2xl font-semibold mb-4">
-        7. Your Data Protection Rights
+        7. Your  Rights
       </h2>
       <p className="mb-4">
-        Depending on your location, you may have the following rights regarding
-        your personal information:
+      Access and Correction: You have the right to access and update your personal information at any time through your account settings.
+      Data Deletion: You can request the deletion of your account and personal information by contacting us at  automatordev.soft@gmail.com .
       </p>
-      <ul className="list-disc list-inside mb-4">
-        <li>
-          The right to access – You have the right to request copies of your
-          personal information.
-        </li>
-        <li>
-          The right to rectification – You have the right to request that we
-          correct any information you believe is inaccurate or complete
-          information you believe is incomplete.
-        </li>
-        <li>
-          The right to erasure – You have the right to request that we erase
-          your personal information, under certain conditions.
-        </li>
-        <li>
-          The right to restrict processing – You have the right to request that
-          we restrict the processing of your personal information, under certain
-          conditions.
-        </li>
-        <li>
-          The right to object to processing – You have the right to object to
-          our processing of your personal information, under certain conditions.
-        </li>
-        <li>
-          The right to data portability – You have the right to request that we
-          transfer the data that we have collected to another organization, or
-          directly to you, under certain conditions.
-        </li>
-      </ul>
-
       <h2 className="text-2xl font-semibold mb-4">
-        8. Cookies and Tracking Technologies
+        8. Cookies 
       </h2>
       <p className="mb-4">
-        We use cookies and similar tracking technologies to track activity on
-        our website and hold certain information. You can instruct your browser
-        to refuse all cookies or to indicate when a cookie is being sent.
-        However, if you do not accept cookies, you may not be able to use some
-        portions of our website.
+      We use cookies to enhance your experience on our platform. Cookies help us remember your preferences and gather usage data. You can manage cookie settings through your browser.
       </p>
 
       <h2 className="text-2xl font-semibold mb-4">
         9. Changes to This Privacy Policy
       </h2>
       <p className="mb-4">
-        We may update our Privacy Policy from time to time. We will notify you
-        of any changes by posting the new Privacy Policy on this page. You are
-        advised to review this Privacy Policy periodically for any changes.
+      We may update this Privacy Policy from time to time. Any changes will be posted on this page, and your continued use of the platform indicates your acceptance of the new policy.
       </p>
 
       <h2 className="text-2xl font-semibold mb-4">10. Contact Us</h2>
       <p className="mb-4">
-        If you have any questions about this Privacy Policy, please contact us
-        at:
+      If you have any questions or concerns about this Privacy Policy, please contact us at : 
       </p>
       <p className="mb-4">
-        NextWeb
+        AutomatorDev
         <br />
-        Email: <span className="text-blue-500">info@nextweb.com</span>
+        Email: <span className="text-blue-500">automatordev.soft@gmail.com </span>
         <br />
-        Phone: (123) 456-7890
+        Phone: (+212) 679-190-677
         <br />
-        Address: 123 WebDev Street, Tech City, TX 75001
       </p>
     </div>
   );

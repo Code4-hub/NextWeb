@@ -21,14 +21,14 @@ const About: React.FC = () => {
                     WebkitTextStrokeColor: "black",
                   }}
                 >
-                  NextWeb
+                  AutomatorDev
                 </span>
               </h1>
             </BlurFade>
 
             <p className="max-w-sm mx-auto text-center text-base font-normal leading-7 text-gray-500 mb-9">
               Discover a smarter way to build and manage your online presence
-              with NextWeb's innovative solutions.
+              with AutomatorDev's innovative solutions.
             </p>
           </div>
         </section>
@@ -53,7 +53,7 @@ const About: React.FC = () => {
                     About Us
                   </h2>
                   <p className="font-normal text-xl leading-8 text-gray-500 max-lg:text-center max-w-2xl mx-auto">
-                    At NextWeb, we are driven by a passion for delivering
+                    At AutomatorDev, we are driven by a passion for delivering
                     seamless user experiences. Our mission is to empower
                     businesses with cutting-edge web development solutions that
                     drive success and growth. We provide a comprehensive toolkit
@@ -80,10 +80,10 @@ const About: React.FC = () => {
                       className="block lg:hidden mb-9 mx-auto rounded-xl"
                     />
                     <h2 className="font-manrope font-bold text-4xl lg:text-5xl text-black mb-9 max-lg:text-center">
-                      We are Innovators Since 2010
+                      We are Innovators Since 2023
                     </h2>
                     <p className="font-normal text-xl leading-8 text-gray-500 max-lg:text-center max-w-2xl mx-auto">
-                      NextWeb is more than just a web development agency; it's a
+                    AutomatorDevis more than just a web development agency; it's a
                       philosophy. We prioritize accessibility, scalability, and
                       usability in every project we undertake. From the smallest
                       details to the most complex layouts, every element is
@@ -123,7 +123,7 @@ const About: React.FC = () => {
                   Our Vision and Mission
                 </h2>
                 <p className="font-normal text-xl leading-8 text-gray-500 max-lg:text-center max-w-2xl mx-auto">
-                  Our vision at NextWeb is to be the leading provider of
+                  Our vision at AutomatorDev is to be the leading provider of
                   innovative web development solutions worldwide. Our mission is
                   to empower businesses to achieve their digital goals through
                   cutting-edge technology, creative design, and unparalleled
@@ -144,7 +144,7 @@ const About: React.FC = () => {
             <div className="w-full max-lg:max-w-2xl mx-auto lg:mx-0 lg:w-1/3 bg-white p-6 rounded-2xl shadow-md shadow-gray-100">
               <div className="flex lg:flex-col gap-5 items-center">
                 <div className="font-manrope text-5xl font-bold flex gap-1 tabular-nums lg:w-auto w-[140px] ">
-                  <NumberTicker value={240} className="" />
+                  <NumberTicker value={58} className="" />
                   <div>%</div>
                 </div>
                 <div className="flex-1">
@@ -152,7 +152,7 @@ const About: React.FC = () => {
                     Company growth
                   </h4>
                   <p className="text-xs text-gray-500 leading-5">
-                    NextWeb's remarkable growth journey as we continually
+                  AutomatorDev's remarkable growth journey as we continually
                     innovate and drive towards new heights of success.
                   </p>
                 </div>
@@ -161,7 +161,7 @@ const About: React.FC = () => {
             <div className="w-full max-lg:max-w-2xl mx-auto lg:mx-0 lg:w-1/3 bg-white p-6 rounded-2xl shadow-md shadow-gray-100">
               <div className="flex lg:flex-col gap-5 items-center">
                 <div className="font-manrope text-5xl font-bold flex gap-1 tabular-numslg:w-auto w-[140px]">
-                  <NumberTicker value={123} />
+                  <NumberTicker value={12} />
                   <div>+</div>
                 </div>
                 <div className="flex-1">
@@ -169,7 +169,7 @@ const About: React.FC = () => {
                     Talented team members
                   </h4>
                   <p className="text-xs text-gray-500 leading-5">
-                    Our talented team members are the powerhouse of NextWeb and
+                    Our talented team members are the powerhouse of AutomatorDev and
                     the pillars of our success.
                   </p>
                 </div>
@@ -178,7 +178,7 @@ const About: React.FC = () => {
             <div className="w-full max-lg:max-w-2xl mx-auto lg:mx-0 lg:w-1/3 bg-white p-6 rounded-2xl shadow-md shadow-gray-100">
               <div className="flex lg:flex-col gap-5 items-center">
                 <div className="font-manrope text-5xl font-bold flex gap-1 tabular-nums lg:w-auto w-[140px]">
-                  <NumberTicker value={145} />
+                  <NumberTicker value={20} />
                   <div>+</div>
                 </div>
                 <div className="flex-1">
@@ -186,7 +186,7 @@ const About: React.FC = () => {
                     Projects Completed
                   </h4>
                   <p className="text-xs text-gray-500 leading-5">
-                    We have successfully completed over 145 projects worldwide
+                    We have successfully completed over 20 projects worldwide
                     and continue to take on new challenges.
                   </p>
                 </div>

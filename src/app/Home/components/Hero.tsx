@@ -1,5 +1,4 @@
 import { Button } from "@/components/ui/button";
-import Marquee from "@/components/magicui/marquee";
 import BlurFade from "@/components/magicui/blur-fade";
 
 interface Image {
@@ -37,12 +36,12 @@ export const Hero = () => {
         <div className="flex flex-col gap-4 max-w-3xl lg:max-w-6xl text-center lg:text-center items-center pt-10 lg:pb-40 m-auto">
           <BlurFade delay={0.35} inView>
             <h1 className="text-5xl  lg:text-7xl font-semibold">
-              The simple way for groups to start.
+              The simple way for idea to start.
             </h1>
           </BlurFade>
           <BlurFade delay={0.45} inView>
             <h2 className="text-4xl lg:text-6xl font-bold text-[#6D6A6A]">
-              NextWeb: Building Your Digital Future with Expert Web Development
+              AutomatorDev: Building Your Digital Future with Expert Web Development
             </h2>
           </BlurFade>
           <BlurFade delay={0.55} inView>
@@ -71,24 +70,6 @@ export const Hero = () => {
             autoPlay
             muted
           ></video>
-        </BlurFade>
-        <BlurFade delay={0.35} inView>
-          <div className="my-40">
-            <h2 className="text-xl font-semibold mb-4 text-center text-muted-foreground">
-              Get in touch with the companies who trust us
-            </h2>
-            <Marquee pauseOnHover className="[--duration:20s] flex">
-              {images.map((image, index) => (
-                <img
-                  key={index}
-                  src={image.src}
-                  alt={image.alt}
-                  className="w-40 object-contain mx-2"
-                  loading="lazy"
-                />
-              ))}
-            </Marquee>
-          </div>
         </BlurFade>
       </section>
     </BlurFade>

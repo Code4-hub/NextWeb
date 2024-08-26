@@ -6,6 +6,7 @@ import { Footer } from "../pageComponents/Footer";
 import { Concept } from "./components/Concept";
 import { RecentWork } from "./components/RecentWork";
 import { StartNow } from "./components/StartNow";
+import OtherProjects from "./components/OtherProjects";
 
 const Home = () => {
   return (
@@ -18,6 +19,7 @@ const Home = () => {
       <Services />
       <Concept />
       <RecentWork />
+      <OtherProjects/>
       <div className="container mx-auto px-4">
         <StartNow />
         <Footer />

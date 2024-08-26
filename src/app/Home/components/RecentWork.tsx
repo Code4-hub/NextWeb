@@ -1,81 +1,62 @@
 import { Button } from "@/components/ui/button";
 import { FaHeart, FaRegHeart } from "react-icons/fa";
 import BlurFade from "@/components/magicui/blur-fade";
+import screen0 from "../components/screen0.png"
+import screen1 from "../components/screen1.png"
+import screen2 from "../components/screen2.png"
+import screen3 from "../components/screen3.jpg"
+import screen4 from "../components/screen4.png"
+
+
+
 
 type SiteData = {
   title: string;
   likes: number;
-  logo: string;
   link: string;
   img: string;
 };
 
 const sitesData: SiteData[] = [
   {
-    title: "Syncware",
-    likes: 12,
-    logo: "https://assets.website-files.com/63470e8222b1737ae74aeb6b/63470e8222b1739b114aed2e_Logo.svg",
-    link: "https://syncware.webflow.io/",
-    img: "https://cdn.prod.website-files.com/61789b489343c8242282a0ae/6457595e10902d6463dc1052_hPvogFMJeaIG8hUWax1Vvii9orV4z1yxOjvDABDy1a4.jpeg",
+    title: "AutomatorDev",
+    likes: 231,
+    link: "https://automatordev-soft.github.io/automatorDev/#contact",
+    img: screen0,
   },
   {
-    title: "Detected",
-    likes: 6,
-    logo: "https://cdn.prod.website-files.com/6645dd8f216c161a23f6a264/6645dd8f216c161a23f6a34c_detected-logo-full-wordmark-orange-black%20(1).webp",
-    link: "https://www.detected.co/",
-    img: "https://cdn.prod.website-files.com/61789b489343c8242282a0ae/64575961abb73d212ae05c61_ZtTsn3eo8S6Uj2s_f-8HtAgIwp9q-gk41xR0zZagHSY.jpeg",
-  },
-
-  {
-    title: "Whalesync",
-    likes: 17,
-    logo: "https://cdn.prod.website-files.com/60baa488e09924cdb6bb75a2/62cc8004506aea6e37ced926_whale.png",
-    link: "https://www.whalesync.com/",
-    img: "https://cdn.prod.website-files.com/61789b489343c8242282a0ae/64575964c9156f96c808bc60_2V2kmWQWmp65Bqb8WV7czlJWhi-dG2XJhyYnRYfsLRM.jpeg",
+    title: "Portfolio1",
+    likes: 129,
+   
+    link: "https://portfolio-amine-abaidi.vercel.app/",
+    img: screen1,
   },
 
   {
-    title: "Ortus",
-    likes: 9,
-    logo: "https://cdn.prod.website-files.com/62c2fea083ed294ce9b01ebf/62c2fea083ed2942f8b01f23_Ortus-Wordmark-RGB-Small.svg",
-    link: "https://www.ortustalent.com/",
-    img: "https://cdn.prod.website-files.com/61789b489343c8242282a0ae/6457596cd34fede98ba440f5_TEAi6LLtPmIJcA9cMgYLkN3zuanRsXIkvUmy47nl_Yo.jpeg",
+    title: "Portfolio2",
+    likes: 189,
+    link: "https://github.com/othm65ane/react-P",
+    img: screen2,
+  },
+
+  {
+    title: "Be think innovate !",
+    likes: 90,
+    link: "",
+    img: screen3,
   },
   {
-    title: "Timely",
-    likes: 24,
-    logo: "https://cdn.prod.website-files.com/637f533d357967a5820f3f25/64ef4834681fdafd6f90c8ea_logo-color.svg",
-    link: "https://timelyapp.com/",
-    img: "https://cdn.prod.website-files.com/61789b489343c8242282a0ae/6457594610d2b15afbfc8db0_Y5qsb9Dq80PzNpIV5ROReHKlyI3Na8HlW4QPxIkqiT0.jpeg",
+    title: "PhotoEditor",
+    likes: 240,
+    link: "https://github.com/othm65ane/PhotoEditor",
+    img: screen4,
   },
 
   {
     title: "Skin Co",
-    likes: 19,
-    logo: "https://assets-global.website-files.com/620a9582f3209f0403dd0cd0/620a9582f3209f7b60dd0d0a_Template%20Brand%20Logo.svg",
+    likes: 119,
     link: "https://skincotemplate.webflow.io/",
     img: "https://cdn.prod.website-files.com/61789b489343c8242282a0ae/64575988330e4c618ce64b1e_zzDtk-aKIMGVtKngG76iftHVoiAsVeG8aWAr3EN7Eqc.png",
-  },
-  {
-    title: "Bulpen",
-    likes: 9,
-    logo: "https://cdn.prod.website-files.com/62f2b0ff5631b62c6b212293/62f2feb513f4714e4fc4915c_Bullpen-RGB-p-500.png",
-    link: "https://www.bullpenre.com/",
-    img: "https://cdn.prod.website-files.com/61789b489343c8242282a0ae/64575956330e4c362ce63af4_OyqWa48neDLd0Sdha5bZ-Ap3V4StO5dX47RfWR3eIZM.jpeg",
-  },
-  {
-    title: "Pickles",
-    likes: 14,
-    logo: "https://assets-global.website-files.com/642acbea6a68acdf9a6c5278/642ad3c7cded8b56f07d1e62_Layer%201.webp",
-    link: "https://pickles.co/",
-    img: "https://cdn.prod.website-files.com/61789b489343c8242282a0ae/645df5592addaaa21143970e_2FErZl3cIqMckfycVwGyq3aOMAZC3iNTKMpBzXeT6MU.jpeg",
-  },
-  {
-    title: "Pond Foundation",
-    likes: 8,
-    logo: "https://cdn.prod.website-files.com/63e1350ab447818409526026/63e1350ab44781f512526066_site-logo-full.svg",
-    link: "https://www.pond.foundation/",
-    img: "https://cdn.prod.website-files.com/61789b489343c8242282a0ae/645df5427ab6a77471dfa8bd_a_ssQ2oIhmkiFozthbrfLYT-cMmSIpjwlMQkF7fDtO8.jpeg",
   },
 ];
 
@@ -115,14 +96,6 @@ export const RecentWork = () => {
                       <span>{item.likes}</span>
                     </div>
                   </div>
-
-                  <img
-                    src={item.logo}
-                    className="w-[8rem] aspect-1/2"
-                    alt="Company Logo"
-                    loading="lazy"
-                  />
-
                   <div className="flex items-center gap-4">
                     <a href={item.link} className="flex-1 " target="_blank">
                       <Button

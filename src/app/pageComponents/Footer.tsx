@@ -1,6 +1,7 @@
 import { Separator } from "@/components/ui/separator";
 import LetterPullup from "@/components/magicui/letter-pullup";
-import { FaGithub, FaFacebookSquare, FaLinkedinIn } from "react-icons/fa";
+import { FaGithub, FaFacebookSquare, FaLinkedinIn , FaInstagram , FaYoutube  } from "react-icons/fa";
+import { SiGmail } from "react-icons/si"
 import { Link } from "react-router-dom";
 
 export const Footer: React.FC = () => {
@@ -15,26 +16,36 @@ export const Footer: React.FC = () => {
           >
             <LetterPullup
               className="jersey-10-regular"
-              words={"NextWeb"}
+              words={"AutomatorDev"}
               delay={0.05}
             />
           </div>
 
-          <p>Crafted with ❤️ by a passionate team in Morocco</p>
+          <p>Crafted with ❤️ by Othmane Charfaoui</p>
 
           <div className="flex items-center gap-2 mt-10">
             <FaGithub
               size={26}
               className="text-muted-foreground transition-all duration-200 ease-in-out hover:text-black"
             />
+              <FaInstagram
+              size={26}
+              href="https://www.instagram.com/automatordev/"
+              className="text-muted-foreground transition-all duration-200 ease-in-out hover:text-black cursor-pointer"
+            />
             <FaFacebookSquare
               size={26}
               className="text-muted-foreground transition-all duration-200 ease-in-out hover:text-black"
             />
-            <FaLinkedinIn
-              size={26}
-              className="text-muted-foreground transition-all duration-200 ease-in-out hover:text-black"
-            />
+            <FaYoutube 
+            size={26}
+            className="text-muted-foreground transition-all duration-200 ease-in-out hover:text-black"
+          />
+          <SiGmail 
+            size={26}
+            href="automatordev.soft@gmail.com"
+            className="text-muted-foreground transition-all duration-200 ease-in-out hover:text-black"
+          />
           </div>
         </div>
         <div className="flex md:w-[30%]  mt-10 xl:gap-20">
@@ -68,12 +79,6 @@ export const Footer: React.FC = () => {
           <div className="flex flex-col gap-3">
             <div className=" text-lg font-bold">Product</div>
             <Link
-              to={"/blog"}
-              className="text-md font-semibold text-muted-foreground hover:text-black"
-            >
-              Pricing
-            </Link>
-            <Link
               to={"/showcase"}
               className="text-md font-semibold text-muted-foreground hover:text-black"
             >
@@ -97,7 +102,7 @@ export const Footer: React.FC = () => {
             className=" cursor-pointer hover:underline"
             onClick={() => window.location.assign("/")}
           >
-            NextWeb
+            AutomatorDev
           </span>{" "}
           Ltd. All rights reserved.
         </p>
